@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "discogs-api-client"
+    }
+  },
+  "defaultProject": "discogs-api-client",
+  "cli": {
+    "analytics": false
+  }
 }
