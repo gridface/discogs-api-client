@@ -4,15 +4,11 @@ import { HttpClientModule } from '@angular/common/http' ;
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NewsComponent } from './news/news.component';
-import { DiscogsComponent } from './discogs/discogs.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NewsComponent,
-    DiscogsComponent,
     DashboardComponent
   ],
   entryComponents: [],
